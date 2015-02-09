@@ -42,6 +42,17 @@ endif
 set expandtab     " TAB inserts spaces
 set shiftwidth=4  " Indent by 4 spaces by default
 
+""""""""""""""""""""
+" BUFFERS WORKFLOW "
+""""""""""""""""""""
+
+" Keep edited buffers in the buffer list instead of abandon them
+set hidden
+
+" Switch to next / previus buffer easily
+nnoremap gb :bn<cr>
+nnoremap gB :bp<cr>
+
 """"""""""
 " VISUAL "
 """"""""""
