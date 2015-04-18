@@ -15,6 +15,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " My plugins
 Plugin 'terryma/vim-multiple-cursors'  " SublimeText style multiple cursor
+Plugin 'Nagasaki45/nerdcommenter'      " Commenter with selected cherry-picks
 
 " All of your Plugins must be added before the following line
 call vundle#end()
@@ -41,6 +42,12 @@ endif
 
 set expandtab     " TAB inserts spaces
 set shiftwidth=4  " Indent by 4 spaces by default
+
+"""""""""""""""""""""""""
+" PLUGIN CONFIGURATIONS "
+"""""""""""""""""""""""""
+
+let NERDDefaultAlign = 'left'  " Alignment of multi-line comments
 
 """"""""""""""""""""
 " BUFFERS WORKFLOW "
