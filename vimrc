@@ -16,6 +16,7 @@ Plugin 'gmarik/Vundle.vim'
 " My plugins
 Plugin 'terryma/vim-multiple-cursors'  " SublimeText style multiple cursor
 Plugin 'Nagasaki45/nerdcommenter'      " Commenter with selected cherry-picks
+Plugin 'flazz/vim-colorschemes'        " Colorschemes
 
 " All of your Plugins must be added before the following line
 call vundle#end()
@@ -64,8 +65,9 @@ nnoremap gB :bp<cr>
 " VISUAL "
 """"""""""
 
-syntax enable  " Enable syntax highlighting
-set hlsearch   " Highlight search results
-set ruler      " Show the cursor position
-set showcmd    " Display incomplete commands
-set showmode   " Whether in INSERT / REPLACE / ... mode
+syntax enable        " Enable syntax highlighting
+colorscheme Monokai  " Set colorscheme
+set hlsearch         " Highlight search results
+set ruler            " Show the cursor position
+set showcmd          " Display incomplete commands
+set showmode         " Whether in INSERT / REPLACE / ... mode
