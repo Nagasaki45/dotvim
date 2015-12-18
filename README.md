@@ -8,7 +8,7 @@ bundles:
 
     git clone git@github.com:Nagasaki45/dotvim.git ~/.vim
     ln -s ~/.vim/vimrc ~/.vimrc
-    git clone git@github.com:gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/Vundle.vim
 
 Install plugins from the command line:
 
