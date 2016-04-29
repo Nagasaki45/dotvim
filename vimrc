@@ -1,6 +1,7 @@
 " Use Vim settings, rather than Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
 set nocompatible
+filetype off         " Required by Vundle to load plugins
 
 """"""""""
 " VUNDLE "
@@ -17,6 +18,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'terryma/vim-multiple-cursors'  " SublimeText style multiple cursor
 Plugin 'Nagasaki45/nerdcommenter'      " Commenter with selected cherry-picks
 Plugin 'flazz/vim-colorschemes'        " Colorschemes
+Plugin 'elixir-lang/vim-elixir'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
